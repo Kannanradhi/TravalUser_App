@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="ripple_blue_color">#e84c3d</color>
+    <color name="darkgreen_color">#027536</color>
+    <color name="spinner_line_color">#e5e5e5</color>
+    <color name="spinner_arrow_color">#e5e5e5</color>
+    <color name="spinner_floatlabel_color">#F05253</color>
+    <color name="spinner_highlight_color">#4CB5AC</color>
+
+        <color name="app_color">#e84c3d</color>
+    <color name="app_color_transperent">#cce84c3d</color>
+    <color name="app_color_transperent1">#aae84c3d</color>
+    <color name="app_color_button">#e84c3d</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="ployline_color">#e84c3d</color>
+    <color name="apply_coupon">#4e4e4e</color>
+    <color name="text_color">#5b5b5b</color>
+    <color name="text_hint">#d4d4d4</color>
+    <color name="text_hint_dark">#919191</color>
+    <color name="accent">#d2d2d2</color>
+    <color name="normal">#8f8f8f</color>
+    <color name="acciviated">#e84c3d</color>
+    <color name="transparant">#00000000</color>
+    <color name="white_color">#FFFFFF</color>
+    <color name="black_color">#4e4e4e</color>
+    <color name="transparent_color">#00000000</color>
+
+    <color name="grey_color">#4e4e4e</color>
+
+    <color name="chat_header_bg_gray">#a9e0e0e0</color>
+    <color name="chat_header_shadow_bg_gray">#a9c7bebe</color>
+    <color name="chat_bg_right_color">#e84c3d</color>
+    <color name="chat_notify_dot_bg">#fb6e6e71</color>
+    <color name="chat_header_text">#000000</color>
+    <color name="chat_edit_text">#000000</color>
+    <color name="chat_time_text">#ffd0d0d0</color>
+    <color name="chat_list_right_text">#ffffff</color>
+    <color name="test">#c5c6c4</color>
+    <color name="edit_text_light_grey">#a6d8dad5</color>
+
+    //bottom sheet select address
+
+    <color name="bottom_view_color">#c5c6c4</color>
+
+
+
+
+
+
+   <!-- <color name="app_color">#F05253</color>
+    <color name="app_color_transperent">#ccF05253</color>
+    <color name="app_color_button">#ccF05253</color>
+-->
+
+
+</resources>

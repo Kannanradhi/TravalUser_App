@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet_select_address"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparant"
+    android:fillViewport="true"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="@dimen/_105sdp"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparant">
+
+        <RelativeLayout
+            android:id="@+id/work_rl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_55sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/work_address_iv"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="match_parent"
+                android:padding="@dimen/_20sdp"
+                android:src="@drawable/ic_work" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/work_address_iv"
+                android:gravity="center_vertical">
+
+                <com.mylibrary.widgets.CustomTextView
+                    android:id="@+id/Work_label_tv"
+                    style="@style/bottom_sheet_select_address_label_text_style"
+                    android:text="@string/bottom_sheet_work_label" />
+
+                <com.mylibrary.widgets.CustomTextView
+                    android:id="@+id/work_address_tv"
+                    style="@style/bottom_sheet_select_address_text_style"
+                    android:layout_below="@+id/Work_label_tv"
+                    android:text="Marina" />
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/bottom_view_color" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/saved_places_rl"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_55sdp"
+            android:layout_below="@+id/work_rl"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/saved_places_iv"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="match_parent"
+                android:padding="@dimen/_20sdp"
+                android:src="@drawable/ic_saved_places" />
+
+
+            <com.mylibrary.widgets.CustomTextView
+                android:id="@+id/saved_places_label_tv"
+                style="@style/bottom_sheet_select_address_label_text_style"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/saved_places_iv"
+                android:text="@string/bottom_sheet_saved_places_label" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_5sdp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/bottom_view_color" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/recent_addresses_lv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/saved_places_rl"
+           >
+
+
+        </ListView>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
+

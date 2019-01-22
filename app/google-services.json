@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "491796363932",
+    "firebase_url": "https://cabilypartner.firebaseio.com",
+    "project_id": "cabilypartner",
+    "storage_bucket": "cabilypartner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491796363932:android:0cf62bbdc7ca4313",
+        "android_client_info": {
+          "package_name": "com.cabily.cabilydriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491796363932-dt95vkpvmre9k8c64bc96296mptnrknh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3j70J_wothfo7_ocx_h0SUw7gHTH9Yag"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
